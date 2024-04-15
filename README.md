@@ -1,2 +1,2 @@
 # Midtest_Studi_Independen
-File midtest studi independen
+Terdapat 2 file yaitu, Python dan SQL.
