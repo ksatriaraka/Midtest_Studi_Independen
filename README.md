@@ -16,7 +16,7 @@ Akan dijelaskan step by step dari coding Python dan Query SQL
 2. Lalu disajikan contoh koordinat dan diprint yang menghasilkan "6.0".
 ## Jawaban Soal 1_SQL
 1. Kueri tersebut pertama-tama memilih gaji tertinggi ke-3 menggunakan subkueri dengan klausa LIMIT. Kemudian, kita memilih gaji berbeda yang kurang dari gaji tertinggi ke-3 dan mengurutkannya dalam urutan menurun. Terakhir, query ini mengembalikan gaji tertinggi, yaitu gaji tertinggi ke-3. Jika ada kurang dari 3 gaji yang berbeda dalam tabel, kueri akan mengembalikan set hasil kosong.
-2. Jika sudah di run, akan muncul gaji tertinggi ke-3 berjumlah "22".
+2. Jika sudah di run, akan muncul gaji tertinggi ke-3 berjumlah "33".
 ## Jawaban Soal 2_SQL
 1. Kueri ini pertama-tama memilih item yang dibeli beberapa kali yang kurang dari jumlah maksimum dan lebih besar dari jumlah minimum menggunakan subkueri dengan klausa HAVING. Kemudian, memilih item teratas dari hasil yang difilter menggunakan klausa LIMIT. ingat bahwa jika ada beberapa item yang dibeli dalam jumlah yang sama, dan jumlah ini bukan jumlah maksimum atau minimum, kueri hanya akan mengembalikan salah satunya. Selain itu, jika hanya ada satu atau dua item yang berbeda dalam tabel, kueri akan mengembalikan set hasil kosong.
 2. Jika sudah di run, akan muncul item yang bernama "Lenovo"
